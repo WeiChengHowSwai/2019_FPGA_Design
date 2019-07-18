@@ -4,7 +4,7 @@ Undergraduate course -- FPGA Design
 This repository provides various FPGA design tutorials.
 
 # Tool
-* Vivado 2018.3
+* [Vivado 2018.3](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2018-3.html)
 
 # FPGA Development Board
 
