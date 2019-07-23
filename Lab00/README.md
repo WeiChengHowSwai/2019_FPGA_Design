@@ -9,13 +9,11 @@ Here's [Git](https://git-scm.com/download/win) (For Windows)
 Here's [GithHub Desktop](https://desktop.github.com)
 ## Step 3. Fork this course repository
 ![Course_repo](images/course_repo.png)
-## Step 4. Pull Requests
-Here's [PR tutorial](https://gitbook.tw/chapters/github/pull-request.html)
 
 # Part 2 - How to Create a Project on Vivado and Run Simulation
 ## Purpose
 
-本實驗目的為讓各位了解如何將設計好的電路燒錄到 FPGA 上執行。
+本實驗目的為讓各位了解如何將設計好的電路在 Vivado 上模擬。
 
 ## Step 1. Create a new project
 首先，開啟 Vivado 軟體後會出現以下介面。
@@ -33,7 +31,7 @@ Here's [PR tutorial](https://gitbook.tw/chapters/github/pull-request.html)
 若沒勾選 _"Do not specify sources at this time"_ 則會進入 add sources and constraints 畫面。
 
 在 Add Sources 選擇 Add Files 將放在 src 資料夾的 LED.sv 加入到這次的 Project 中。
-> NOTE: Add Sources 加入或建立的檔案為 HDL files
+> NOTE: Add Sources 加入或建立的檔案為 HDL files (硬體描述語言檔)
 
 ![Add Sources](images/add_src.png)
 
@@ -53,18 +51,6 @@ Here's [PR tutorial](https://gitbook.tw/chapters/github/pull-request.html)
 一切選擇完畢後出現以下介面，代表創建完成。
 
 ![Vivado GUI](images/vivado_gui.png)
-## Step 2. Generate bitstream
-在 Step 1 我們已經將本次實驗所需的 RTL code 及 constraints 加入到 Project 中，直接按下上圖 Vivado 介面左邊 PROJECT MANAGER 最下面的 Generate Bitstream，等待介面右上角顯示 write_bitstream complete 即表示完成。
-> NOTE: 實際上，按下 Generate Bitstream 等同於執行了，Run Synthesis > Run Implementation > Generate Bitstream
+## Step 2. Simulation
+在 Step 1 我們已經將本次實驗所需的 RTL code 及 Testbench 加入到 Project 中，直接按下上圖 Vivado 介面左邊 PROJECT MANAGER 中間的 Run Simulation 。
 
-## Step 3. Program FPGA
-按下 Vivado 介面左邊 PROJECT MANAGER 最下面的 Open Hardware Manager 後會在介面中間上面出現 Open target，將板子接上電腦且開啟電源後按下 Auto Connect。
-> NOTE: 若不是將板子連接在安裝此 Vivado 的電腦上，則須選擇 Open New Target 並另外設定。
-
-![Open Target](images/open_target.png)
-
-選擇完畢，按下 Program device 即開始燒錄。
-
-![Program Device](images/dev_prog.png)
-
-燒錄完成，可撥動板子上的開關觀察 LED 的亮暗情況。
