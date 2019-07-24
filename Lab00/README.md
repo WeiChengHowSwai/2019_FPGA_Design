@@ -13,7 +13,7 @@ Here's [GithHub Desktop](https://desktop.github.com)
 到自己帳號底下的課程頁面後，複製那段網址並mail給助教(陳韋呈，主旨:2019FPGA GroupX 作業網址)
 > 一組請決定一個固定的帳號，以後作業評分都是以這次給的網址為主
 
-![Fork repository](image/fork_repository.png)
+![Fork repository](images/fork_repository.png)
 
 # Part 2 - How to Create a Project on Vivado and Run Simulation
 ## Purpose
