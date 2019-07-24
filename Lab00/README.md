@@ -35,13 +35,13 @@ Here's [GithHub Desktop](https://desktop.github.com)
 
 若沒勾選 _"Do not specify sources at this time"_ 則會進入 add sources and constraints 畫面。
 
-在 Add Sources 選擇 Add Files 將放在 src 資料夾的 LED.sv 加入到這次的 Project 中。
+在 Add Sources 選擇 Add Files 將放在 src 資料夾的 adder.v & tb.v 加入到這次的 Project 中。
 > NOTE: Add Sources 加入或建立的檔案為 HDL files (硬體描述語言檔)
 
 ![Add Sources](images/add_src.png)
 
-在 Add Constraints 選擇 Add Files 將放在 xdc 資料夾的所有檔案加入到這次的 Project 中。
-> NOTE: Add Sources 加入或建立的檔案為 xdc files
+在 Add Constraints 這步驟不選擇檔案，直接按 Next 。
+> NOTE: Add Constraints 加入或建立的檔案為 xdc files ， 是用來告訴 FPGA 你的電路的 I/O 腳位對應到 FPGA 上的什麼位子，這次實驗只有用到模擬功能故不需要加入 xdc files。
 
 ![Add Constraints](images/add_xdc.png)
 
@@ -57,5 +57,10 @@ Here's [GithHub Desktop](https://desktop.github.com)
 
 ![Vivado GUI](images/vivado_gui.png)
 ## Step 2. Simulation
-在 Step 1 我們已經將本次實驗所需的 RTL code 及 Testbench 加入到 Project 中，直接按下上圖 Vivado 介面左邊 PROJECT MANAGER 中間的 Run Simulation 。
+在 Step 1 我們已經將本次實驗所需的 RTL code 及 Testbench 加入到 Project 中，直接按下上圖 Vivado 介面左邊 PROJECT MANAGER 中間的 Run Simulation -> Run Behavior Simulation 。
 
+![Sim Confirm](images/sim_comfirm.png)
+
+等待 Vivado 處理完成以後，就可以看模擬的波形、訊息等等資訊。
+
+![Sim Gui](images/sim_gui.png)
