@@ -7,13 +7,52 @@ FPGA Design Lab00
 ## Step 2. Download Git and GitHub Desktop
 Here's [Git](https://git-scm.com/download/win) (For Windows)  
 Here's [GithHub Desktop](https://desktop.github.com)
-## Step 3. Fork this course repository
-![Course_repo](images/course_repo.png)
-## Step 4. Go to your course repository
-到自己帳號底下的課程頁面後，複製那段網址並mail給助教(陳韋呈，主旨:2019FPGA GroupX 作業網址)
-> 一組請決定一個固定的帳號，以後作業評分都是以這次給的網址為主
+## Step 3. Github Desktop Tutorial
 
-![Fork repository](images/fork_repository.png)
+### Create Homework Hand-in Repository
+
+開啟並登入帳號後，選擇左上角的 `File` ->　`New Repository`
+
+![New Repository](images/new_repo.png)
+
+並按照下圖中格式命名後，按下 `Create repository`
+
+**建議 : 以後的作業都直接在選項中的 Local Path 創建 Vivado 專案**
+
+**因為只要你設定的這個 Path 有任何更動都可以直接更新到你的 Repository**
+
+**!!!但是!!!注意!!!這點很重要!!!Vivado的專案路徑不能有中文!!!**
+
+![repo setting](images/repo_setting.png)
+
+創建完 Repository 後，按下 `Publish repository`
+
+![Publish repository](images/repo_publish.png)
+
+將 `Keep this code private` 取消勾選後按下 `Publish repository`
+
+![Publish setting](images/publish_setting.png)
+
+完成後在瀏覽器開啟剛剛創建的 Repository ，並將網址並mail給助教(陳韋呈，主旨:2019FPGA GroupX 作業網址)
+> 一組請決定一個固定的網址，以後作業評分都是以這次給的網址為主
+
+![Browser](images/repo_browser.png)
+
+### Push to Origin
+
+先在剛剛設定的 Local Path 下隨便建立一個 txt 檔，
+
+再回到 Github Desktop 後，可以看到資料夾內的變更。
+
+按下左下角的 `Commit to master `
+
+![Repo Change](images/repo_change.png)
+
+之後可以看到上方的 `Push origin` 有一個變更，給他按下去
+
+![Push Origin](images/push_origin.png)
+
+回到瀏覽器，就會發現剛剛創建的 txt 被上傳了。
 
 # Part 2 - How to Create a Project on Vivado and Run Simulation
 ## Purpose
