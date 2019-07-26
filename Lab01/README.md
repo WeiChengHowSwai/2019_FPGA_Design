@@ -44,7 +44,17 @@ FPGA Design Lab01 - FPGA Implementation of Sequential Logic
 以上三點都確認完後即可插上 UART 傳輸線並開啟 FPGA 的電源。
 
 # Step 4. Program the Device
+
 在 Step 2 產生完 Bitstream 後，Vivado 會自動跳出這個視窗，選擇第三項 `Open Hardware Manager`
+
 ![Open Hardware Manager](images/open_hwmanager.png)
-按下上方的 Open Target
+
+按下上方的 `Open Target` 後選擇 `Auto Connect`
+
 ![Open Target](images/open_target.png)
+
+在 Vivado 偵測到 FPGA 裝置後，選擇 `Program Device` 後選擇 `Program`
+
+![Program Device](images/program_device.png)
+
+接著就會將 Step 2 所產生的 Bitstream 燒錄進 FPGA ， 即可觀察 Switches 和 LED 的關係。
