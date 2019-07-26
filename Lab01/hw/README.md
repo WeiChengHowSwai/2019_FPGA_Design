@@ -39,3 +39,11 @@ Homework 1
 3. Switch 為 `10` 時 ，使用 Buttons 調整綠燈長(t2)。
 
 4. Switch 為 `11` 時 ，使用 Buttons 調整兩者重疊的紅燈長(t3)。
+
+## Problems
+
+1. 為什麼要加入 blinky.xdc 這個 Constraint ?
+
+> [Hint](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_1/ug903-vivado-using-constraints.pdf)
+
+2. 承上題，若沒有加入這個 Constraint，可能會發生什麼事?
