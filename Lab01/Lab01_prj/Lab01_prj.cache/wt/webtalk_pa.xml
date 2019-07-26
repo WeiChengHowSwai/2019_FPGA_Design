@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Fri Jul 26 11:50:37 2019">
+<application name="pa" timeStamp="Fri Jul 26 16:24:01 2019">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="b4451f9769ce463e86beab169ab32c2d" type="ProjectID"/>
 <property name="ProjectIteration" value="6" type="ProjectIteration"/>
@@ -18,45 +18,51 @@ This means code written to parse this file will need to be revisited each subseq
 </item>
 <item name="Java Command Handlers">
 <property name="AddSources" value="6" type="JavaHandler"/>
-<property name="AutoConnectTarget" value="2" type="JavaHandler"/>
-<property name="LaunchProgramFpga" value="7" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="3" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="8" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
-<property name="OpenHardwareManager" value="4" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="5" type="JavaHandler"/>
 <property name="OpenProject" value="1" type="JavaHandler"/>
 <property name="OpenRecentTarget" value="1" type="JavaHandler"/>
 <property name="RunBitgen" value="6" type="JavaHandler"/>
 <property name="ShowView" value="5" type="JavaHandler"/>
-<property name="ViewTaskProjectManager" value="3" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="4" type="JavaHandler"/>
 </item>
 <item name="Gui Handlers">
 <property name="AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN" value="1" type="GuiHandlerData"/>
 <property name="AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES" value="2" type="GuiHandlerData"/>
 <property name="BaseDialog_CANCEL" value="2" type="GuiHandlerData"/>
-<property name="BaseDialog_OK" value="16" type="GuiHandlerData"/>
+<property name="BaseDialog_OK" value="17" type="GuiHandlerData"/>
 <property name="BaseDialog_YES" value="6" type="GuiHandlerData"/>
 <property name="BoardChooser_BOARD_TABLE" value="2" type="GuiHandlerData"/>
-<property name="CmdMsgDialog_OK" value="4" type="GuiHandlerData"/>
+<property name="CmdMsgDialog_OK" value="6" type="GuiHandlerData"/>
 <property name="ConstraintsChooserPanel_ADD_EXISTING_OR_CREATE_NEW_CONSTRAINTS" value="1" type="GuiHandlerData"/>
 <property name="ConstraintsChooserPanel_ADD_FILES" value="3" type="GuiHandlerData"/>
 <property name="ConstraintsChooserPanel_CREATE_FILE" value="2" type="GuiHandlerData"/>
 <property name="CreateConstraintsFilePanel_FILE_NAME" value="1" type="GuiHandlerData"/>
 <property name="CreateSrcFileDialog_FILE_NAME" value="3" type="GuiHandlerData"/>
-<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="18" type="GuiHandlerData"/>
-<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="10" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="23" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="11" type="GuiHandlerData"/>
 <property name="GettingStartedView_CREATE_NEW_PROJECT" value="1" type="GuiHandlerData"/>
 <property name="GettingStartedView_OPEN_PROJECT" value="1" type="GuiHandlerData"/>
 <property name="HJFileChooserHelpers_JUMP_TO_CURRENT_WORKING_DIRECTORY" value="1" type="GuiHandlerData"/>
+<property name="MainMenuMgr_CHECKPOINT" value="1" type="GuiHandlerData"/>
+<property name="MainMenuMgr_EDIT" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FILE" value="4" type="GuiHandlerData"/>
+<property name="MainMenuMgr_IP" value="1" type="GuiHandlerData"/>
+<property name="MainMenuMgr_PROJECT" value="3" type="GuiHandlerData"/>
 <property name="MsgTreePanel_MESSAGE_VIEW_TREE" value="9" type="GuiHandlerData"/>
 <property name="MsgView_CRITICAL_WARNINGS" value="1" type="GuiHandlerData"/>
 <property name="MsgView_ERROR_MESSAGES" value="2" type="GuiHandlerData"/>
 <property name="NumJobsChooser_NUMBER_OF_JOBS" value="1" type="GuiHandlerData"/>
 <property name="PACommandNames_ADD_SOURCES" value="7" type="GuiHandlerData"/>
-<property name="PACommandNames_AUTO_CONNECT_TARGET" value="2" type="GuiHandlerData"/>
-<property name="PACommandNames_OPEN_HARDWARE_MANAGER" value="3" type="GuiHandlerData"/>
+<property name="PACommandNames_AUTO_CONNECT_TARGET" value="3" type="GuiHandlerData"/>
+<property name="PACommandNames_OPEN_HARDWARE_MANAGER" value="4" type="GuiHandlerData"/>
 <property name="PACommandNames_REPORTS_WINDOW" value="1" type="GuiHandlerData"/>
-<property name="ProgramDebugTab_OPEN_TARGET" value="3" type="GuiHandlerData"/>
-<property name="ProgramDebugTab_PROGRAM_DEVICE" value="7" type="GuiHandlerData"/>
-<property name="ProgramFpgaDialog_PROGRAM" value="7" type="GuiHandlerData"/>
+<property name="PAViews_PROJECT_SUMMARY" value="1" type="GuiHandlerData"/>
+<property name="ProgramDebugTab_OPEN_TARGET" value="5" type="GuiHandlerData"/>
+<property name="ProgramDebugTab_PROGRAM_DEVICE" value="8" type="GuiHandlerData"/>
+<property name="ProgramFpgaDialog_PROGRAM" value="8" type="GuiHandlerData"/>
 <property name="ProjectNameChooser_CHOOSE_PROJECT_LOCATION" value="1" type="GuiHandlerData"/>
 <property name="ProjectNameChooser_PROJECT_NAME" value="1" type="GuiHandlerData"/>
 <property name="ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED" value="1" type="GuiHandlerData"/>
@@ -66,6 +72,12 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES" value="2" type="GuiHandlerData"/>
 <property name="SrcChooserPanel_ADD_SOURCES_FROM_SUBDIRECTORIES" value="1" type="GuiHandlerData"/>
 <property name="SrcChooserPanel_CREATE_FILE" value="3" type="GuiHandlerData"/>
+<property name="TclConsoleView_TCL_CONSOLE_CODE_EDITOR" value="3" type="GuiHandlerData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="1" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
 </item>
 </section>
 </application>
