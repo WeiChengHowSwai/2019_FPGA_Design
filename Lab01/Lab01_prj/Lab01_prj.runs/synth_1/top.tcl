@@ -17,23 +17,22 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7z020clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.cache/wt [current_project]
-set_property parent.project_path D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.xpr [current_project]
+set_property webtalk.parent_dir D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.cache/wt [current_project]
+set_property parent.project_path D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
-set_property ip_output_repo d:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.cache/ip [current_project]
+set_property ip_output_repo d:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
-  D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.srcs/sources_1/new/LED.v
-  D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.srcs/sources_1/new/divider.v
-  D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.srcs/sources_1/new/top.v
+  D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.srcs/sources_1/new/LED.v
+  D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.srcs/sources_1/new/divider.v
+  D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.srcs/sources_1/new/top.v
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -43,13 +42,13 @@ read_verilog -library xil_defaultlib {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.srcs/constrs_1/imports/Vivado/pynq-z2_v1.0.xdc
-set_property used_in_implementation false [get_files D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.srcs/constrs_1/imports/Vivado/pynq-z2_v1.0.xdc]
+read_xdc D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.srcs/constrs_1/imports/Vivado/pynq-z2_v1.0.xdc
+set_property used_in_implementation false [get_files D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.srcs/constrs_1/imports/Vivado/pynq-z2_v1.0.xdc]
 
-read_xdc D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.srcs/constrs_1/new/blinky.xdc
-set_property used_in_implementation false [get_files D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.srcs/constrs_1/new/blinky.xdc]
+read_xdc D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.srcs/constrs_1/new/blinky.xdc
+set_property used_in_implementation false [get_files D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.srcs/constrs_1/new/blinky.xdc]
 
-set_param ips.enableIPCacheLiteLoad 0
+set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
 synth_design -top top -part xc7z020clg400-1

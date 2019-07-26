@@ -65,18 +65,17 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7z020clg400-1
   set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.cache/wt [current_project]
-  set_property parent.project_path D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.xpr [current_project]
-  set_property ip_output_repo D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.cache/ip [current_project]
+  set_property webtalk.parent_dir D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.cache/wt [current_project]
+  set_property parent.project_path D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.xpr [current_project]
+  set_property ip_output_repo D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.runs/synth_1/top.dcp
-  read_xdc D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.srcs/constrs_1/imports/Vivado/pynq-z2_v1.0.xdc
-  read_xdc D:/VivadoProject/2019FPGA_Lab/Lab01/Lab01_prj/Lab01_prj.srcs/constrs_1/new/blinky.xdc
+  add_files -quiet D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.runs/synth_1/top.dcp
+  read_xdc D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.srcs/constrs_1/imports/Vivado/pynq-z2_v1.0.xdc
+  read_xdc D:/2019_FPGA_Design/Lab01/Lab01_prj/Lab01_prj.srcs/constrs_1/new/blinky.xdc
   link_design -top top -part xc7z020clg400-1
   close_msg_db -file init_design.pb
 } RESULT]

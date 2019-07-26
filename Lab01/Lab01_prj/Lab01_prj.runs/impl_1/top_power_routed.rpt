@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date             : Thu Jul 18 17:02:21 2019
-| Host             : DESKTOP-IRIBVUK running 64-bit major release  (build 9200)
+| Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date             : Fri Jul 26 11:52:44 2019
+| Host             : MSI running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
 | Device           : xc7z020clg400-1
@@ -53,12 +53,12 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.001 |        4 |       --- |             --- |
-| Slice Logic    |    <0.001 |       83 |       --- |             --- |
+| Slice Logic    |    <0.001 |       85 |       --- |             --- |
 |   LUT as Logic |    <0.001 |       42 |     53200 |            0.08 |
 |   CARRY4       |    <0.001 |        7 |     13300 |            0.05 |
 |   Register     |    <0.001 |       31 |    106400 |            0.03 |
 |   Others       |     0.000 |        3 |       --- |             --- |
-| Signals        |    <0.001 |       75 |       --- |             --- |
+| Signals        |    <0.001 |       77 |       --- |             --- |
 | I/O            |    <0.001 |        8 |       125 |            6.40 |
 | Static Power   |     0.106 |          |           |                 |
 | Total          |     0.108 |          |           |                 |
@@ -150,7 +150,6 @@ Table of Contents
 +---------+-----------+
 | top     |     0.002 |
 |   div_0 |     0.002 |
-|   led_0 |    <0.001 |
 +---------+-----------+
 
 
