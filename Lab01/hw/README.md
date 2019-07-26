@@ -22,6 +22,8 @@ Homework 1
 
 對應到 xdc file 上的控制腳位為 `RGB LEDs` 那欄。
 
+[如何製造黃燈](https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8E%9F%E8%89%B2%E5%85%89%E6%A8%A1%E5%BC%8F)
+
 ## Bonus
 
 ### 作業說明
