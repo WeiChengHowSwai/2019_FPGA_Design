@@ -68,4 +68,4 @@ Lab 2-1 - 將自己設計的module包成IP並使用Block Design完成系統設�
 
 ![HDL Wrapper](images/HDL_wrapper.png)
 
-回顧產繩 Bitstream 的步驟，就可以把電路燒錄到 FPGA 上觀察 Switches 跟 RGB LED 的關係。
+回顧產生 Bitstream 的步驟，就可以把電路燒錄到 FPGA 上觀察 Switches 跟 RGB LED 的關係。
