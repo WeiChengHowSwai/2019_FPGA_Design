@@ -1,0 +1,115 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xFA076EAAF9EAD185",
+      "device": "xc7z020clg400-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "RGB_LED_0": "",
+      "PWM_Decoder_0": ""
+    },
+    "ports": {
+      "sw": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "B_out": {
+        "direction": "O"
+      },
+      "G_out": {
+        "direction": "O"
+      },
+      "R_out": {
+        "direction": "O"
+      },
+      "clk": {
+        "direction": "I"
+      },
+      "rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "RGB_LED_0": {
+        "vlnv": "xilinx.com:user:RGB_LED:1.0",
+        "xci_name": "design_1_RGB_LED_0_0"
+      },
+      "PWM_Decoder_0": {
+        "vlnv": "xilinx.com:user:PWM_Decoder:1.0",
+        "xci_name": "design_1_PWM_Decoder_0_0"
+      }
+    },
+    "nets": {
+      "PWM_Decoder_0_R_time_out": {
+        "ports": [
+          "PWM_Decoder_0/R_time_out",
+          "RGB_LED_0/R_time_in"
+        ]
+      },
+      "PWM_Decoder_0_G_time_out": {
+        "ports": [
+          "PWM_Decoder_0/G_time_out",
+          "RGB_LED_0/G_time_in"
+        ]
+      },
+      "PWM_Decoder_0_B_time_out": {
+        "ports": [
+          "PWM_Decoder_0/B_time_out",
+          "RGB_LED_0/B_time_in"
+        ]
+      },
+      "sw_0_1": {
+        "ports": [
+          "sw",
+          "PWM_Decoder_0/sw"
+        ]
+      },
+      "RGB_LED_0_B_out": {
+        "ports": [
+          "RGB_LED_0/B_out",
+          "B_out"
+        ]
+      },
+      "RGB_LED_0_G_out": {
+        "ports": [
+          "RGB_LED_0/G_out",
+          "G_out"
+        ]
+      },
+      "RGB_LED_0_R_out": {
+        "ports": [
+          "RGB_LED_0/R_out",
+          "R_out"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk",
+          "RGB_LED_0/clk"
+        ]
+      },
+      "rst_0_1": {
+        "ports": [
+          "rst",
+          "RGB_LED_0/rst"
+        ]
+      }
+    }
+  }
+}

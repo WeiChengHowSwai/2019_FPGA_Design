@@ -1,0 +1,25 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port G_out -pg 1 -y 100 -defaultsOSRD
+preplace port rst -pg 1 -y 80 -defaultsOSRD
+preplace port B_out -pg 1 -y 120 -defaultsOSRD
+preplace port clk -pg 1 -y 60 -defaultsOSRD
+preplace port R_out -pg 1 -y 80 -defaultsOSRD
+preplace portBus sw -pg 1 -y 160 -defaultsOSRD
+preplace inst RGB_LED_0 -pg 1 -lvl 2 -y 100 -defaultsOSRD
+preplace inst PWM_Decoder_0 -pg 1 -lvl 1 -y 160 -defaultsOSRD
+preplace netloc RGB_LED_0_G_out 1 2 1 NJ
+preplace netloc clk_0_1 1 0 2 NJ 60 NJ
+preplace netloc RGB_LED_0_R_out 1 2 1 NJ
+preplace netloc sw_0_1 1 0 1 NJ
+preplace netloc rst_0_1 1 0 2 NJ 80 NJ
+preplace netloc PWM_Decoder_0_R_time_out 1 1 1 240
+preplace netloc PWM_Decoder_0_B_time_out 1 1 1 260
+preplace netloc RGB_LED_0_B_out 1 2 1 NJ
+preplace netloc PWM_Decoder_0_G_time_out 1 1 1 250
+levelinfo -pg 1 0 130 370 500 -top 0 -bot 240
+"
+}
+
