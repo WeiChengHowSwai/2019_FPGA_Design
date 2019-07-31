@@ -30,7 +30,7 @@ Homework 2
 
 ### 作業需求
 
-1. 使用一顆產生漸強漸弱的呼吸燈即可。
+1. 使用一顆 LED 實作產生漸強漸弱的呼吸燈即可。
 
 2. 呼吸燈長[這樣](https://www.youtube.com/watch?v=Z6tbQ0HNmag)
 
