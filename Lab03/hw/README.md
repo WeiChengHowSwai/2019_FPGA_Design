@@ -7,10 +7,9 @@ Homework 3
 
 請問在不改動任何設定下，ZYNQ CPU 儲存資料的方式是 big-endian 還是 little-endian?
 
-### Program 1.
+### Program 1 - 使用 AXI GPIO - 控制 RGB LED
 
-1. 用 switch 切換每個組員的學號，當按下 button 後 LED 會輸出學號的摩斯密碼。
-2. 計算 hash function 並在 putty 上顯示出學號經由 hash function 的結果。
+
 
 ### Program 2.
 
