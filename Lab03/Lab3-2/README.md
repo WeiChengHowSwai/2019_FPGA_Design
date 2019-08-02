@@ -53,3 +53,9 @@ File > Launch SDK
 在執行 Run Configuration 時，由於這次有產生 bitstream 所以會多出現一個 `.bit` 檔案。
 
 ![run_config](images/run_config.png)
+
+### References
+
+1. [Embedded System](https://zh.wikipedia.org/wiki/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F)
+
+2. [Embedded System C Program](http://stenlyho.blogspot.com/2007/04/c_03.html)
