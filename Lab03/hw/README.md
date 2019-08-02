@@ -39,7 +39,7 @@ Example:
 
 1. 輸入完一個數字後，以 `Enter(\n)` 區隔下一個數字。
 
-2. 輸入了那些數字必須更新在 Terminal 上。
+2. 輸入了哪些數字必須更新在 Terminal 上。
 
 ### References
 
