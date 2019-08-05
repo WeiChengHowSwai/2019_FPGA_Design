@@ -1,6 +1,10 @@
 FPGA Design Lab3-2
 =================
 
+## Purpose
+
+使用 Zynq Processor 搭配 AXI GPIO IP 實作一個簡單的 SoC Project。
+
 ## Step 1. Create a new project
 
 僅需加入本次實驗所提供的 Constraints。
