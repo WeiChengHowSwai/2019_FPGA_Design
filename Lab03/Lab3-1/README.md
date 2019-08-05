@@ -1,5 +1,10 @@
-FPGA Design Lab3-1
+FPGA Design Lab 3-1
 =================
+## Purpose
+
+使用 PYNQ-Z2 上現有的 Zynq Processor 實作一個簡單的 C/C++ Project。
+
+
 ## Step 1. Download PuTTY
 
 Here's [PuTTY](https://www.putty.org/)
