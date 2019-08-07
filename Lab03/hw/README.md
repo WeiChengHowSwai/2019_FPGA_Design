@@ -41,6 +41,13 @@ Example:
 
 2. 輸入了哪些數字必須更新在 Terminal 上。
 
+3. 需在 README 上簡單註明/講解你們所使用的排序演算法。
+
+### Next Lab Preview
+
+- [AXI](https://www.twblogs.net/a/5b8cb90d2b7177188334d3a7)
+- [BUS](https://zh.wikipedia.org/wiki/%E6%80%BB%E7%BA%BF)
+
 ### References
 
 * [Endianness](https://zh.wikipedia.org/wiki/%E5%AD%97%E8%8A%82%E5%BA%8F)
