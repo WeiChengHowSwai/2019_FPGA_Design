@@ -1,0 +1,28 @@
+/*
+ * main.c
+ *
+ *  Created on: 2018¦~8¤ë28¤é
+ *      Author: VLSILAB
+ */
+
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xparameters.h"
+#include "adder.h"
+
+
+int main()
+{
+	u32	A = 1, B = 3, Sum;
+	u32 input;
+	scanf("input: %d\r\n", input);
+    printf("Program Start.\n\r");
+
+    Sum = add(XPAR_ADDER_0_S00_AXI_BASEADDR, A, B);
+
+    printf("%d + %d = %d\n\r", A, B, Sum);
+
+
+    return 0;
+}

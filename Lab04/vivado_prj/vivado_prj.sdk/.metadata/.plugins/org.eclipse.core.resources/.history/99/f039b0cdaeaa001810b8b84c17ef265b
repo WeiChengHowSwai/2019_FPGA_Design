@@ -1,0 +1,40 @@
+/*
+ * main.c
+ *
+ *  Created on: 2018¦~8¤ë28¤é
+ *      Author: VLSILAB
+ */
+
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xparameters.h"
+#include "adder.h"
+
+
+int main()
+{
+	u32	A = 1, B = 3, Sum;
+
+
+    print("Hello World\n\r");
+
+
+    while(getchar() != 'A');
+
+
+    print("Hello World\n\r");
+
+    //Xil_Out32(XPAR_ADDER_0_S00_AXI_BASEADDR, data);
+
+    //data = Xil_In32(XPAR_ADDER_0_S00_AXI_BASEADDR);
+
+
+    Sum = add(XPAR_ADDER_0_S00_AXI_BASEADDR, A, B);
+    //data = Xil_In32(XPAR_ADDER_0_S00_AXI_BASEADDR + 0x00000004);
+    printf("2nd = %d\n\r", Sum);
+
+    print("Hello World\n\r");
+
+    return 0;
+}
