@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="system_bram_0_0_synth_1" LaunchDir="C:/Users/VLSILAB/Documents/FPGA_Design/Lab06/vivado_prj/vivado_prj.runs/system_bram_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/VLSILAB/Documents/FPGA_Design/Lab06/vivado_prj/vivado_prj.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="system_bram_0_0_synth_1"/>
+	</Run>
+</Runs>
+

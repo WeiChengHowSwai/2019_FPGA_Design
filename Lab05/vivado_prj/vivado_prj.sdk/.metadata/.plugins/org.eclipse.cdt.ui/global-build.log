@@ -1,0 +1,293 @@
+15:03:32 **** Build of project memory_ctrl_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/bram_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/bram_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/bram_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling bram..."
+bram_selftest.c: In function 'BRAM_Reg_SelfTest':
+bram_selftest.c:52:53: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( BRAM_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                     ^~
+bram_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+15:03:51 **** Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/memory_ctrl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../memory_ctrl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memory_ctrl.d" -MT"src/memory_ctrl.o" -o "src/memory_ctrl.o" "../src/memory_ctrl.c"
+'Finished building: ../src/memory_ctrl.c'
+' '
+'Building target: memory_ctrl.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../memory_ctrl_bsp/ps7_cortexa9_0/lib -o "memory_ctrl.elf"  ./src/memory_ctrl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../memory_ctrl_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\VLSILAB\Documents\FPGA_Design\Lab06\vivado_prj\vivado_prj.sdk\memory_ctrl_bsp\ps7_cortexa9_0\libsrc\standalone_v6_7\src/xil-crt0.S:142: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [memory_ctrl.elf] Error 1
+15:04:01 **** Auto Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/memory_ctrl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../memory_ctrl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memory_ctrl.d" -MT"src/memory_ctrl.o" -o "src/memory_ctrl.o" "../src/memory_ctrl.c"
+../src/memory_ctrl.c: In function 'main':
+../src/memory_ctrl.c:58:6: warning: variable 'data' set but not used [-Wunused-but-set-variable]
+  u32 data;
+      ^~~~
+../src/memory_ctrl.c: In function 'write_data':
+../src/memory_ctrl.c:82:15: error: 'XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BRAM_0_S00_AXI_BASEADDR'?
+     Xil_Out32(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR + 0x00000004, 0x00000002); //cmd write
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_BRAM_0_S00_AXI_BASEADDR
+../src/memory_ctrl.c:82:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/memory_ctrl.c: In function 'read_data':
+../src/memory_ctrl.c:99:15: error: 'XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BRAM_0_S00_AXI_BASEADDR'?
+     Xil_Out32(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR + 0x00000004, 0x00000001); //cmd read
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_BRAM_0_S00_AXI_BASEADDR
+make: *** [src/memory_ctrl.o] Error 1
+15:05:31 **** Auto Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/memory_ctrl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../memory_ctrl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memory_ctrl.d" -MT"src/memory_ctrl.o" -o "src/memory_ctrl.o" "../src/memory_ctrl.c"
+../src/memory_ctrl.c: In function 'main':
+../src/memory_ctrl.c:58:6: warning: variable 'data' set but not used [-Wunused-but-set-variable]
+  u32 data;
+      ^~~~
+../src/memory_ctrl.c: In function 'write_data':
+../src/memory_ctrl.c:83:15: error: 'XPAR_BRAM_0_S00_AXI_BASEADDRR' undeclared (first use in this function); did you mean 'XPAR_BRAM_0_S00_AXI_BASEADDR'?
+     Xil_Out32(XPAR_BRAM_0_S00_AXI_BASEADDRR + 0x00000008, data);   //data_in
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_BRAM_0_S00_AXI_BASEADDR
+../src/memory_ctrl.c:83:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/memory_ctrl.c:84:15: error: 'XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BRAM_0_S00_AXI_BASEADDR'?
+     Xil_Out32(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR + 0x0000000C, address);  //address
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_BRAM_0_S00_AXI_BASEADDR
+../src/memory_ctrl.c: In function 'read_data':
+../src/memory_ctrl.c:99:15: error: 'XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BRAM_0_S00_AXI_BASEADDR'?
+     Xil_Out32(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR + 0x00000004, 0x00000001); //cmd read
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_BRAM_0_S00_AXI_BASEADDR
+make: *** [src/memory_ctrl.o] Error 1
+15:06:01 **** Auto Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/memory_ctrl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../memory_ctrl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memory_ctrl.d" -MT"src/memory_ctrl.o" -o "src/memory_ctrl.o" "../src/memory_ctrl.c"
+../src/memory_ctrl.c: In function 'main':
+../src/memory_ctrl.c:58:6: warning: variable 'data' set but not used [-Wunused-but-set-variable]
+  u32 data;
+      ^~~~
+../src/memory_ctrl.c: In function 'write_data':
+../src/memory_ctrl.c:90:21: error: 'XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BRAM_0_S00_AXI_BASEADDR'?
+      ans = Xil_In32(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR);     //waiting for cmd done
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     XPAR_BRAM_0_S00_AXI_BASEADDR
+../src/memory_ctrl.c:90:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/memory_ctrl.c: In function 'read_data':
+../src/memory_ctrl.c:99:15: error: 'XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BRAM_0_S00_AXI_BASEADDR'?
+     Xil_Out32(XPAR_MEMORY_CTRL_0_S00_AXI_BASEADDR + 0x00000004, 0x00000001); //cmd read
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               XPAR_BRAM_0_S00_AXI_BASEADDR
+make: *** [src/memory_ctrl.o] Error 1
+15:06:32 **** Auto Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/memory_ctrl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../memory_ctrl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memory_ctrl.d" -MT"src/memory_ctrl.o" -o "src/memory_ctrl.o" "../src/memory_ctrl.c"
+../src/memory_ctrl.c: In function 'main':
+../src/memory_ctrl.c:58:6: warning: variable 'data' set but not used [-Wunused-but-set-variable]
+  u32 data;
+      ^~~~
+'Finished building: ../src/memory_ctrl.c'
+' '
+'Building target: memory_ctrl.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../memory_ctrl_bsp/ps7_cortexa9_0/lib -o "memory_ctrl.elf"  ./src/memory_ctrl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: memory_ctrl.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size memory_ctrl.elf  |tee "memory_ctrl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19704	   1144	  22568	  43416	   a998	memory_ctrl.elf
+'Finished building: memory_ctrl.elf.size'
+' '
+15:06:47 **** Auto Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/memory_ctrl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../memory_ctrl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memory_ctrl.d" -MT"src/memory_ctrl.o" -o "src/memory_ctrl.o" "../src/memory_ctrl.c"
+../src/memory_ctrl.c: In function 'main':
+../src/memory_ctrl.c:67:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("ADDR : 2, Data = %d\n\r", data);
+                              ~^
+                              %ld
+../src/memory_ctrl.c:70:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("ADDR : 3, Data = %d\n\r", data);
+                              ~^
+                              %ld
+../src/memory_ctrl.c:73:31: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+     printf("ADDR : 1, Data = %d\n\r", data);
+                              ~^
+                              %ld
+'Finished building: ../src/memory_ctrl.c'
+' '
+'Building target: memory_ctrl.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../memory_ctrl_bsp/ps7_cortexa9_0/lib -o "memory_ctrl.elf"  ./src/memory_ctrl.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: memory_ctrl.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size memory_ctrl.elf  |tee "memory_ctrl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70852	   2580	  23328	  96760	  179f8	memory_ctrl.elf
+'Finished building: memory_ctrl.elf.size'
+' '
+15:06:49 **** Auto Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:11:11 **** Incremental Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:19:25 **** Incremental Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:22:37 **** Incremental Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:22:56 **** Incremental Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:23:31 **** Incremental Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:24:03 **** Incremental Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:25:50 **** Incremental Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:26:32 **** Incremental Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:27:02 **** Incremental Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:28:58 **** Incremental Build of configuration Debug for project memory_ctrl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

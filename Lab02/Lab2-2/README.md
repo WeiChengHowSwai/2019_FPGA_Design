@@ -5,6 +5,8 @@ Lab 2-2 - 設置Debugger
 
 設置 Debugger 不只可以用來觀察輸出波形，也可以設置在電路中間的訊號線以觀察設計是否正確。
 
+**註:如果電腦使用者名稱是中文，或是安裝路徑有中文，Debugger有極大機率會有問題**
+
 # Step 1. Create Block Design
 
 仿照 [Lab 2-1 Step3](https://github.com/ncku-vlsilab/2019_FPGA_Design/tree/master/Lab02/Lab2-1#step-3-create-a-block-design-project)，建立 Block Design，並執行到 `Synthesis` 步驟就好。

@@ -1,4 +1,4 @@
-FPGA Design Lab05 - Package a Custom AXI IP
+FPGA Design Lab04 - Package a Custom AXI IP
 =============================================
 
 ## Step 1. Create a new project

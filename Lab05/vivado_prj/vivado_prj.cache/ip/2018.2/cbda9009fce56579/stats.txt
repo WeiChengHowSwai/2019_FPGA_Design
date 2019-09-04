@@ -1,0 +1,4 @@
+NumberHits:1
+Timestamp: Sun Sep 09 06:01:10 UTC 2018
+VLNV: vlsilab:vlsilab:bram:1.0
+SynthRuntime: 28
