@@ -33,7 +33,7 @@ Here's [GithHub Desktop](https://desktop.github.com)
 
 ![Publish setting](images/publish_setting.png)
 
-完成後在瀏覽器開啟剛剛創建的 Repository ，並將網址並mail給助教(陳韋呈，主旨:2019FPGA GroupX 作業網址)
+完成後在瀏覽器開啟剛剛創建的 Repository ，並將網址以及組員名單一併mail給助教(陳韋呈，主旨:2019FPGA作業網址)
 > 一組請決定一個固定的網址，以後作業評分都是以這次給的網址為主
 
 ![Browser](images/repo_browser.png)
