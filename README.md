@@ -37,5 +37,10 @@ This repository provides various FPGA design tutorials.
 
 # Teaching Assistance
 
+**來信請在標題加上【FPGA】**
+**範例:【FPGA】Homework3 Problem1問題**
+
 * 許軒瑞:N26074906@mail.ncku.edu.tw
 * 陳韋呈:N26084723@mail.ncku.edu.tw
+
+
