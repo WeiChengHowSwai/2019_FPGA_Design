@@ -643,3 +643,37 @@ java.lang.NullPointerException
 
 !ENTRY com.xilinx.sdk.utils 1 0 2018-08-28 19:50:07.896
 !MESSAGE Executed Webtalk command
+!SESSION 2019-09-05 14:36:18.609 -----------------------------------------------
+eclipse.buildId=2018.3
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_TW
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/2019_FPGA_Design/Lab04/vivado_prj/vivado_prj.sdk
+
+!ENTRY org.eclipse.ui 2 0 2019-09-05 14:37:02.823
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-09-05 14:37:02.823
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2019-09-05 14:37:04.218
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-09-05 14:37:04.218
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-09-05 14:37:12.347
+!MESSAGE Removing part descriptor with the 'com.xilinx.sdsoc.trace.view.AxiEventsView' id and the 'AXI State View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-09-05 14:37:20.841
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-09-05 14:37:20.846
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-09-05 14:37:20.850
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-09-05 14:37:20.855
+!MESSAGE XSCT Command: [setws D:/2019_FPGA_Design/Lab04/vivado_prj/vivado_prj.sdk], Thread: Thread-15
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-09-05 14:37:31.974
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.xilinx.sdk.startup.InitSDK$8
