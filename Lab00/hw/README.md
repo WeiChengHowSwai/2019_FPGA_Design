@@ -20,6 +20,8 @@ Homework 00 - Verilog Code Practice
 
 檔案需要有 : `HDL Code` (EX.Lab00_GroupX.v) 、 `README.md` (基本一定要有 **所有組員的學號**、**模擬結果截圖**、**波形截圖**。)
 
+>註 :請使用競賽提供的testbench進行模擬
+
 >請大家練習撰寫README.md，不僅是為了方便助教們評分，在撰寫README時也能幫助自己更了解自己的作業內容
 
 > [MarkDown撰寫教學](https://markdown.tw/) 、 [推薦.md編輯器](https://atom.io/)
